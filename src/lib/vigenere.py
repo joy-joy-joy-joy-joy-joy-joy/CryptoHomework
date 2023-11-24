@@ -6,4 +6,4 @@ def vigenere(en_or_de,text,keyword):
             result+=chr((ord(text[i]) - ord('A') + ord(keyword[i%len(keyword)]) - ord('A')) % 26 + ord('A'))
         else:
             result+=chr((ord(text[i]) - ord('A') - ord(keyword[i%len(keyword)]) + ord('A')) % 26 + ord('A'))
-    return result
+    return resulxxt
